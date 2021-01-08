@@ -1,3 +1,7 @@
+html {
+    background: url(gradient.png) no-repeat center center fixed;
+}
+
 .prof-box {
     width: 590px;
     height: 650px;
