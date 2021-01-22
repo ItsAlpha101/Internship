@@ -1,152 +1,68 @@
-* {
-    padding: 0;
-    margin: 0; 
-    scroll-behavior: smooth;
-    
-}
-body{
-    width: 100%;
-    height: 100%;
-    background: url("gradient.png") no-repeat center fixed;
-    background-size: cover;    
-}
-.one {
-    /* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("gradient.png"); */
-    background-size:cover ;
-    height: 100vh;
-    background-position: center;
-    box-sizing: border-box;        
-    
-}  
-.first {
-    font-size: 20px;
-    position: relative;
-    left:500px ;
-    top:200px ;
-    color: white;
-    font-size: 80px;
-    border: 2px solid white;
-    padding: 40px;
-}
-/* .prof-pic {
-    border-radius: 50%;
-    height: 240px;
-    width: 250px;
-    border-style: solid;
-    border-color: white;
-    border-width: 4px;
-    border-radius: 50%;
-} */
-ul li
-{
-    list-style-type:none;
-    display:inline-block ;
-    position: relative;
-    left:60% ;
-    top:40px  ;
-    height: 70px;
-}
-ul li a
-{
-    text-decoration: none ;
-    margin: 20px ;
-    color: aliceblue;
-    font-size: 25px ;
-    font-family: 'Roboto', sans-serif;    
-}
-ul li a:hover
-{
-    background:none ;
-    border:1px solid white ;
-    padding: 5px ;
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
 }
 
-h1 {
-    font-weight: 150;
-    letter-spacing: 6;
-    font-size: 38px;
+body {
+  background: #141414;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
-p {
-    padding: 60px;
-    text-align: center;
-    font-size: 24px;
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
 }
 
-.two
-{
-    height:100vh ;  
-    color: white;
-    
+/* Navigation */
+.navigation-link {
+  border: 2px solid transparent;
 }
 
-#go{
-    font-size: 60px; 
-    text-align: center;
-    margin-top: 100px; 
-    
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #09b2f5;
+  transition: 0.5s ease;
 }
 
-
-/* .line-break {
-    width: 500px;
-    margin: 0 auto;
-    border-top: 1px dotted black;
-} */
-.three
-{
-    height:100vh ;  
-    color: white;
-    
+/* Main Container height*/
+.main-container {
+  height: 100vh;
 }
 
-.four
-{
-    height:100vh ;  
-    color: white;
-    
+/* Aligning items in main row */
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#pro {
-    font-size: 60px; 
-    text-align: center;
-    margin-top: 100px; 
-    
+/* Changing Name Font sixe */
+.main_row h1 {
+  font-size: 5rem;
 }
 
-form
-{
-    position: relative;
-    top:50px ;
-    width: 25vw;
-    left: 37%;
-    text-align: center;
+/* Making the main image the size of the screen */
+.main_row img {
+  width: auto;
+  height: 80vh;
 }
 
-#ps {
-    font-size: 60px; 
-    text-align: center;
-    margin-top: 100px; 
-    
-}
-.social-icons {
-    padding: 5px;
-    font-size: 40px;
-    width: 20px;
-    height: 15px;
-    text-align: center;
-    text-decoration: none;
-    position: relative;
-    display: inline;
-    top:300px ;
-    left:85px;
-    margin-left: 12px;
+/* About Section */
+.about {
+  background: #5c5c5c;
+  border-radius: 0.5rem;
 }
 
-.social-icons a {
-    color: white;
+/* Social Media Section */
+#social-media {
+  background: #5c5c5c;
 }
 
-.social-icons a:hover { 
-    color: #00f7ff;
+/* Add color to Social Media Links */
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #09b2f5;
+  border-radius: 0.5rem;
 }
